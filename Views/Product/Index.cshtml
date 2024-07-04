@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/views/shared/_Layout.cshtml";
+}
+
+@* <h1>Product Index</h1> *@
+
+
+<div class="top-btns">
+    <button class="btn btn-sm btn-primary m-2 " id="btnAddProduct">Add Product</button>
+    <div class="search-div">
+        <input type="text" placeholder="Search here" id="SearchInput" />
+        <button class="btn btn-sm btn-primary m-2" onclick="SearchProduct()" id="btnSearch">Search</button>
+    </div>
+</div>
+
+<br />
+
+<table class="table table-bordered text-centered" style="width: 100%">
+    <thea>
+        <tr class="text-center">
+            <td>ProductId</td>
+            <td>ProductName</td>
+            <td>Quantity</td>
+            <td>Price</td>
+            <td>TotalPrice</td>
+            <td id="operation-header">Operations</td>
+        </tr>
+    </thea>
+    <tbody class="text-center" id="table_data"> </tbody>
+
+</table>
+
+    <div class="modal fade modal" id="ProductModel">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h1 class="text-info modal-title" id="ProductHeading">Add Product</h1>
+                    <button class="btn-close text-danger" onclick="HideModalPopUp()" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <form action="/" method="post">
+                        <div class="form-group mt-4" id="productId">
+                            <input type="number" class="form-control" id="ProductId" disabled="disabled" />
+                        </div>
+                        <div class="form-group mt-4">
+                            <input type="text" placeholder="Product name" class="form-control" id="ProductName" />
+                        </div>
+                        <div class="form-group mt-4">
+                            <input type="number" placeholder="Quantity" class="form-control" id="Quantity" />
+                        </div>
+                        <div class="form-group mt-4">
+                            <input type="number" placeholder="Price" class="form-control" id="Price" />
+                        </div>
+                        @* <div class="form-group mt-4" id="totalPrice">
+                            <input type="number" class="form-control" id="TotalPrice" />
+                        </div> *@
+                    </form>
+                </div
+
+                <div class="modal-footer">
+                    <button class="btn btn-primary" onclick="AddProduct();" id="btnSaveProduct" >Save</button>
+                    <button class="btn btn-warning" style="display:none" onclick="UpdateProduct();" id="btnUpdateProduct" >Update</button>
+                    <button class="btn btn-danger btn-default"  onclick="HideModalPopUp()" data-dismiss="modal" >Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/ProductJS.js"></script>
+
+
+
+
+
+
+

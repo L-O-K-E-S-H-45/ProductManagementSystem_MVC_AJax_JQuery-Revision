@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ProductManagementSystem_MVC_AJax_JQuery.props" />
+</Project>
