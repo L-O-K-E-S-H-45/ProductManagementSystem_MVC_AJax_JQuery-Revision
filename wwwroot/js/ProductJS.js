@@ -149,8 +149,9 @@ function SearchProduct() {
 
     $.ajax({
         type: 'Get',
-        url: 'Product/SearchProduct?productName=' + searchString,
-        data: searchString,
+        //url: 'Product/SearchProduct?productName=' + searchString,
+        url: 'Product/SearchProduct',
+        data: {productName: searchString},
         dataType: 'json',
         contentType: 'application/json;charset=utf-8',
         success: function (result) {

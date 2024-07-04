@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "F:\\DotNet\\DotNetProjects\\DotNet_MVC_Project\\ProductManagementSystem_MVC_AJax_JQuery\\ProductManagementSystem_MVC_AJax_JQuery\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9AE211BA-2F36-4C64-9171-978E553C9DFC}|ProductManagementSystem_MVC_AJax_JQuery.csproj|f:\\dotnet\\dotnetprojects\\dotnet_mvc_project\\productmanagementsystem_mvc_ajax_jquery\\productmanagementsystem_mvc_ajax_jquery\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AE211BA-2F36-4C64-9171-978E553C9DFC}|ProductManagementSystem_MVC_AJax_JQuery.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9AE211BA-2F36-4C64-9171-978E553C9DFC}|ProductManagementSystem_MVC_AJax_JQuery.csproj|f:\\dotnet\\dotnetprojects\\dotnet_mvc_project\\productmanagementsystem_mvc_ajax_jquery\\productmanagementsystem_mvc_ajax_jquery\\wwwroot\\js\\productjs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{9AE211BA-2F36-4C64-9171-978E553C9DFC}|ProductManagementSystem_MVC_AJax_JQuery.csproj|solutionrelative:wwwroot\\js\\productjs.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE211BA-2F36-4C64-9171-978E553C9DFC}|ProductManagementSystem_MVC_AJax_JQuery.csproj|f:\\dotnet\\dotnetprojects\\dotnet_mvc_project\\productmanagementsystem_mvc_ajax_jquery\\productmanagementsystem_mvc_ajax_jquery\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE211BA-2F36-4C64-9171-978E553C9DFC}|ProductManagementSystem_MVC_AJax_JQuery.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9AE211BA-2F36-4C64-9171-978E553C9DFC}|ProductManagementSystem_MVC_AJax_JQuery.csproj|f:\\dotnet\\dotnetprojects\\dotnet_mvc_project\\productmanagementsystem_mvc_ajax_jquery\\productmanagementsystem_mvc_ajax_jquery\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -38,18 +38,17 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AQIAAB8AAACAMDMzMzMrwCcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-03T20:57:12.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T20:57:12.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProductJS.js",
               "DocumentMoniker": "F:\\DotNet\\DotNetProjects\\DotNet_MVC_Project\\ProductManagementSystem_MVC_AJax_JQuery\\ProductManagementSystem_MVC_AJax_JQuery\\wwwroot\\js\\ProductJS.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\ProductJS.js",
               "ToolTip": "F:\\DotNet\\DotNetProjects\\DotNet_MVC_Project\\ProductManagementSystem_MVC_AJax_JQuery\\ProductManagementSystem_MVC_AJax_JQuery\\wwwroot\\js\\ProductJS.js",
               "RelativeToolTip": "wwwroot\\js\\ProductJS.js",
-              "ViewState": "AQIAAI8AAAAAhMzMzMz8v5IAAAAOAAAA",
+              "ViewState": "AQIAAI8AAAAAhMzMzMz8v5UAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-07-03T11:34:44.062Z",
               "EditorCaption": ""
@@ -64,18 +63,17 @@
               "RelativeToolTip": "Views\\Product\\Index.cshtml",
               "ViewState": "AQIAAAYAAAAA/v////8gwBoAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-03T11:17:16.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T11:17:16.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "F:\\DotNet\\DotNetProjects\\DotNet_MVC_Project\\ProductManagementSystem_MVC_AJax_JQuery\\ProductManagementSystem_MVC_AJax_JQuery\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
               "ToolTip": "F:\\DotNet\\DotNetProjects\\DotNet_MVC_Project\\ProductManagementSystem_MVC_AJax_JQuery\\ProductManagementSystem_MVC_AJax_JQuery\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AQIAAC8AAADAIDMzMzMdwEIAAABbAAAA",
+              "ViewState": "AQIAAB4AAAAAy8zMzMz0v0IAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T06:23:30.797Z",
               "EditorCaption": ""

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProductManagementSystem_MVC_AJax_JQuery")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67350b59f979127a7d458de4f24c997a5adc7e62")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProductManagementSystem_MVC_AJax_JQuery")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProductManagementSystem_MVC_AJax_JQuery")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
